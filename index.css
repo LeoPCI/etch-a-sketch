@@ -1,11 +1,11 @@
 div{
-	height: 10px;
-	width: 10px;
+	height: 45px;
+	width: 45px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 20px;
 	position: absolute;
 	text-align: center;
 }
@@ -14,15 +14,14 @@ div{
 	width: 50px;
 	background-color: white;
 	position: relative;
-	margin-left:50px;
 	text-align: center;
 }
 button{
-	height: 16px;
-	width: 40px;
+	height: 40px;
+	width: 80px;
 	text-align: center;
 	line-height: 6px;
-	font-size: 5px;
+	font-size: 14px;
 }
 #butt{
 	position: relative;
@@ -32,6 +31,6 @@ button{
 }
 p{
 	text-align: center;
-	font-size: 5px;
+	font-size: 20px;
 	color: green;
 }

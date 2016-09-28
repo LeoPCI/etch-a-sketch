@@ -9,10 +9,10 @@ $(document).ready(function(){
 			$('#container').append('<div class="column'+i+' row'+j+'"></div>')
 		};
 
-		$('.column'+i).css({'margin-left': '4'*i})
+		$('.column'+i).css({'margin-left': '40'*i})
 	};
 	for (var k = 1; k < gridsize; k++) {
-		$('.row'+k).css('top', '4'*k+'px');
+		$('.row'+k).css('top', '40'*k+'px');
 	};
 
 	$('div>div').mouseenter(function(){
@@ -32,10 +32,10 @@ $(document).ready(function(){
 			$('#container').append('<div class="column'+i+' row'+j+'"></div>')
 		};
 
-		$('.column'+i).css({'margin-left': '4'*i})
+		$('.column'+i).css({'margin-left': '40'*i})
 	};
 	for (var k = 1; k < gridsize; k++) {
-		$('.row'+k).css('top', '4'*k+'px');
+		$('.row'+k).css('top', '40'*k+'px');
 	};
 
 	$('div>div').mouseenter(function(){
