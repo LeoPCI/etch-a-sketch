@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-	gridsize=prompt('what grid size do you want?')
+	gridsize=30
 
 	for (var i = 1; i < gridsize; i++) {
 
@@ -15,8 +15,9 @@ $(document).ready(function(){
 		$('.row'+k).css('top', '4'*k+'px');
 	};
 
-	$('div').mouseenter(function(){
-		$(this).css({'background-color': 'orange'})
+	$('div>div').mouseenter(function(){
+		$(this).css({'background-image': 'url("photo.jpg")'})
+		$(this).css('z-index', 9999);
 	});
 
 	$('#newgrid').click(function(){
@@ -37,8 +38,9 @@ $(document).ready(function(){
 		$('.row'+k).css('top', '4'*k+'px');
 	};
 
-	$('div').mouseenter(function(){
-		$(this).css({'background-color': 'orange'})
+	$('div>div').mouseenter(function(){
+		$(this).css({'background-image': 'url("photo.jpg")'})
+		$(this).css('z-index', 9999);
 	});
 });
 
