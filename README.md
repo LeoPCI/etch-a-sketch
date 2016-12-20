@@ -1,4 +1,4 @@
-One of my first attempts at javascript and css.
+One of my first attempts at javascript.
 
 Run your mouse over the page to draw.
 
